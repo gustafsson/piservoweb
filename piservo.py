@@ -1,3 +1,6 @@
+#sudo apt-get install python-setuptools
+#easy_install -U RPIO
+
 import time
 
 from RPIO import PWM
