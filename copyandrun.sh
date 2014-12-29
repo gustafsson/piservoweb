@@ -8,5 +8,5 @@ if [ ! -f mypi ]; then
 fi
 
 mypi=$(cat mypi)
-scp piservo.py ${mypi}:~/dev/piservo
-ssh ${mypi} 'cd ~/dev/piservo;sudo python piservo.py'
+scp piservo3.py ${mypi}:~/dev/piservo
+ssh ${mypi} 'cd ~/dev/piservo;sudo python piservo3.py'
